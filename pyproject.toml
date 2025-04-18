@@ -1,0 +1,13 @@
+[project]
+name = "urlparsecontent"
+version = "0.1.0"
+description = "Tool to extract text from URLs pointing to PDFs, PNGs, or JPGs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "pillow>=11.2.1",
+    "pypdf>=5.4.0",
+    "pytesseract>=0.3.13",
+]
